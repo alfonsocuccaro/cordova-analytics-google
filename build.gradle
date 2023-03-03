@@ -1,0 +1,5 @@
+dependencies {
+  implementation("com.google.firebase:fireabse-analytics:15.0.0"){
+    exclude group: 'com.google.firebase', module: 'firebase-iid'
+  }
+}
